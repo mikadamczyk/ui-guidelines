@@ -120,6 +120,16 @@
     color: #fff;
 }
 
+.ez-table-checkboxes .table-iconbutton:hover .table-iconbutton-view {
+    border-radius: 4px;
+    background-color: #0f6d95;
+    color: #fff;
+}
+
+.ez-table-checkboxes .table-iconbutton .table-iconbutton-view {
+    color: #0f6d95;
+}
+
 .ez-table-subitems .table-title-subitems {
     background-color: #445a64;
     color: #fff;
