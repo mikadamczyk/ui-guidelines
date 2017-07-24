@@ -107,10 +107,12 @@ select:focus {
 .ez-form-inputtext input:hover + .help-block,
 .error-show:hover + .help-block {
    display: block;
+   width: 100%;
 }
 
 .help-block {
     display: none;
+    position: absolute;
     margin-top: -1px;
     margin-left: 10px;
     color: #878787;
@@ -162,6 +164,10 @@ select:focus {
     box-shadow: inset 0 0 8px rgba(217, 45, 66, .25);
 }
 
+.ez-form-inputtext-extrasmall {
+    max-width: 80px;
+}
+
 .ez-form-inputtext-small {
     max-width: 330px;
 }
@@ -170,10 +176,19 @@ select:focus {
     min-height: 5em;
 }
 
-.ez-form-inputtext-xsmall {
-    max-width: 160px;
+.ez-form-inputtext-date {
+    max-width: 170px;
     display: inline-block;
     float: left;
+}
+
+.ez-form-inputtext-time {
+    display: inline-block;
+    float: left;
+}
+
+.ez-form-inputtext-time input[type=time] {
+    width: initial;
 }
 
 .ez-form-timestyle {
