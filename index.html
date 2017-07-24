@@ -557,13 +557,35 @@
 									</div>
 								</div>
 								<div class="ez-form-box top-extra">
-									<p>Visibility switcher</p>
-									<div class="ez-form-visibilityswitcher">
-										<input type="radio" name="group-a" id="view-1" checked>
-										<label for="view-1">Show</label>
-										<input type="radio" name="group-a" id="edit-1">
-										<label for="edit-1">Hide</label>
-										<span class="switch"></span>
+									<div class="ez-form-box-switcher">
+										<p>Visibility switcher</p>
+
+										<div class="ez-form-visibilityswitcher">
+										    <input type="radio" class="switch-input" name="group-1" id="view" checked>
+										    <label for="view" class="switch-label switch-label-view">
+										    	<span class="ez-icon-x2 ez-icon-view"></span>
+										    </label>
+										    <input type="radio" class="switch-input" name="group-1" id="hide">
+										    <label for="hide" class="switch-label switch-label-hide">
+										    	<span class="ez-icon-x2 ez-icon-view-hide"></span>
+										    </label>
+										    <span class="switch-selection"></span>
+										</div>
+									</div>
+									<div class="ez-form-box-switcher">
+										<p>Visibility switcher - Disabled</p>
+
+										<div class="ez-form-visibilityswitcher" disabled>
+										    <input type="radio" class="switch-input" name="group-2" id="view-2" checked disabled>
+										    <label for="view-2" class="switch-label switch-label-view">
+										    	<span class="ez-icon-x2 ez-icon-view"></span>
+										    </label>
+										    <input type="radio" class="switch-input" name="group-2" id="hide-2" disabled>
+										    <label for="hide-2" class="switch-label switch-label-hide">
+										    	<span class="ez-icon-x2 ez-icon-view-hide"></span>
+										    </label>
+										    <span class="switch-selection"></span>
+										</div>
 									</div>
 								</div>
 							</div>
