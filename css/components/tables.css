@@ -201,3 +201,58 @@
 .ez-table-subitems .container-buttons-switcher .switch-field label:last-of-type {
     border-radius: 0 4px 4px 0;
 }
+
+.ez-table-dashboard .header {
+    background-color: #62828F;
+    font-size: 1em;
+    color: #fff;
+}
+
+.ez-table-dashboard .header th:first-child {
+    border-radius: 4px 0 0 0;
+}
+
+.ez-table-dashboard .header th:last-child {
+    border-radius: 0 4px 0 0;
+}
+
+.ez-table-dashboard td {
+    font-size: .95em;
+}
+
+.ez-table-dashboard td:last-of-type {
+    padding-right: 22px;
+    text-align: right;
+}
+
+.ez-table-dashboard .table-iconbutton {
+    display: inline-block;
+    float: right;
+    margin: 2px 0 3px 0;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 46px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.ez-table-dashboard .table-iconbutton .table-iconbutton-edit {
+    color: #f15a10;
+}
+
+.ez-table-dashboard .table-iconbutton:hover {
+    color: #fff;
+}
+
+.ez-table-dashboard .table-iconbutton:hover .table-iconbutton-edit {
+    border-radius: 4px;
+    background-color: #f15a10;
+    color: #fff;
+}
+
+.ez-table-dashboard .table-iconbutton:hover .table-iconbutton-view {
+    border-radius: 4px;
+    background-color: #0f6d95;
+    color: #fff;
+}
