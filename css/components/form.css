@@ -294,7 +294,7 @@ select:focus {
 
 .ez-form-onoffswitcher input:checked + label:after, 
 .ez-form-onoffswitcher input:checked + label:before {
-    content: "\e912";
+    content: "\e913";
     font-family: 'ez-icons';
     speak: none;
     left: 32px;
@@ -307,7 +307,6 @@ select:focus {
             animation: 0.25s forwards;
 }
 
-/*==== VISIBILITY SWITCHER NEW ===========*/
 .ez-form-visibilityswitcher input[type="radio"] + label:before,
 .ez-form-visibilityswitcher input[type="radio"]:checked + label:after { 
     display: none;
