@@ -21,7 +21,6 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-/* Icons sizes */
 .ez-icon-x1 {
     font-size: 1em;
 }
@@ -42,7 +41,6 @@
     font-size: 4em;
 }
 
-/*icons*/
 .ez-icon-about:before {
     content: "\e900";
 }
@@ -599,7 +597,6 @@
     content: "\e98a";
 }
 
-/*Spinners*/
 .ez-spin {
     animation: spin 1.75s linear infinite;
 }
