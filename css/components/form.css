@@ -227,6 +227,12 @@ select:focus {
     background-color: #fff;
 }
 
+.ez-form-select select[disabled] {
+    cursor: not-allowed;
+    box-shadow: none;
+    opacity: .3;
+}
+
 .ez-form-onoffswitcher {
     position: relative;
     display: block;

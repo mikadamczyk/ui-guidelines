@@ -322,12 +322,12 @@ pre[class*="language-"] {
     margin-bottom: 1.5em;
 }
 
-.ez-form-box-switcher {
+.ez-form-box-inner {
     display: inline-block;
     float: left;
 }
 
-.ez-form-box-switcher:last-child {
+.ez-form-box-inner:last-child {
     margin-left: 10%;
 }
 
